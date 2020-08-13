@@ -38,7 +38,9 @@ nav{
 }
 
 .button:hover{
-	color: #5465FF;
+	color: #D4D2D5;
+	background-color: #5465FF;
+	border-color: #5465FF;
 }
 
 a{
