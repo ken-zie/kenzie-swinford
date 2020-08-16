@@ -21,6 +21,8 @@ nav{
 	font-size: 150%;
 	color: #08090A;
 	font-weight: bold;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .button{
@@ -59,6 +61,8 @@ h2{
 	font-size: 500%;
 	color: #08090A;
 	margin-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 h3{
