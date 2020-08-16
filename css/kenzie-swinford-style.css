@@ -1,0 +1,169 @@
+body{
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0%;
+	background-color: #EBEAEB;
+}
+
+header{
+	background-image: linear-gradient(#08090A, #EBEAEB);
+}
+
+h1{
+	text-align: center;
+	font-variant: small-caps;
+	font-family: "Agency FB", "Bahnschrift SemiBold Condensed", "Bahnschrift";
+	font-size: 750%;
+	color: #EBEAEB;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+nav{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Arial Narrow";
+	font-size: 150%;
+	font-weight: bold;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.button{
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Arial Narrow";
+	font-size: 120%;
+	color: #08090A;
+	border: solid 3px;
+	border-radius: 5px;
+	border-color: #08090A;
+	margin: 5px;
+	padding: 5px;
+}
+
+.button:hover{
+	color: #EBEAEB;
+	background-color: #08090A;
+	border-color: #08090A;
+}
+
+.space{
+	margin: 20px;
+	display: inline-block;
+}
+
+a{
+	color: #FF3860;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #5C6CFF;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Agency FB", "Bahnschrift Semibold Condensed", "Bahnschrift";
+	font-size: 500%;
+	color: #08090A;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 20px;
+}
+
+h3{
+	text-align: left;
+	text-transform: uppercase;
+	font-family: "Agency FB", "Bahnschrift Semibold Condensed", "Bahnschrift";
+	font-size: 350%;
+	color: #08090A;
+	margin-bottom: 20px;
+}
+
+h4{
+	text-align: left;
+	font-family: "Agency FB", "Bahnschrift Semibold Condensed", "Bahnschrift";
+	font-size: 250%;
+	color: #FF3860;
+	margin-bottom: 20px;
+}
+
+h5{
+	text-align: left;
+	font-family: "Agency FB", "Bahnschrift Semibold Condensed", "Bahnschrift";
+	font-size: 150%;
+	color: #08090A;
+	margin-bottom: 20px;
+}
+
+details{
+	text-align: left;
+	font-family: "Arial Narrow";
+	color: #08090A;
+}
+
+summary{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+section{
+	font-size: 120%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+p{
+	font-family: "Arial Narrow";
+	color: #08090A;
+}
+
+footer{
+	text-align: right;
+	display: inline-block;
+	float: right;
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #08090A;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.column-left{
+	display: inline-block;
+	float: left;
+	width: 44.5%;
+	font-size: 100%;
+	margin-left: 0% !important;
+	margin-right: 10% !important;
+}
+
+.column-right{
+	display: inline-block;
+	float: left;
+	width: 44.5%;
+	font-size: 100%;
+	margin-right: 0% !important;
+	margin-left: 0% !important;
+}
+
+.alone{
+	display: inline-block;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.footer-text{
+	color: #EBEAEB;
+	margin-right: 10%;
+}
+
+figure{
+	display: inline-block;
+	float: right;
+}
