@@ -1,0 +1,276 @@
+body{
+	background-color: #FFFFFC;
+}
+
+header{
+	background-color: #1F1F1F;
+	color: #FFFFFC;
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+h1{
+	display: inline-block;
+	float: left;
+	font-family: Electrolize;
+	text-transform: lowercase;
+	font-weight: bold;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 200%;
+	margin-top: 30px;
+}
+
+h1 a{
+	color: #FFFFFC;
+}
+
+h1 mark{
+	color: #C2C9FF;
+}
+
+h1 a:hover{
+	color: #C2C9FF;
+}
+
+header nav{
+	display: inline-block;
+	float: left;
+	margin-top: 38px;
+	margin-bottom: 38px;
+	margin-left: 60px;
+	color: #FFFFFC;
+}
+
+header nav a{
+	display: inline-block;
+	float: left;
+	font-family: Barlow;
+	font-size: 110%;
+	margin-right: 25px;
+	color: #FFFFFC;
+}
+
+header nav a:hover{
+	color: #C2C9FF;
+}
+
+header nav a.current{
+	color: #C2C9FF;
+}
+
+section.no-internal-nav{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+h2{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Barlow;
+	color: #1F1F1F;
+	font-size: 400%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+figure{
+	display: inline-block;
+	float: right;
+	width: 400px;
+}
+
+figure img{
+	width: 100%;
+	max-width: 400px;
+}
+
+section p{
+	font-family: Barlow;
+	font-size: 130%;
+	color: #1F1F1F;
+}
+
+footer{
+	display: inline-block;
+	width: 100%;
+	background-color: #1F1F1F;
+	color: #FFFFFC;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: right;
+	padding: 15px;
+	margin-top: 500px;
+}
+
+footer p{
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 10px;
+	font-family: Barlow;
+	font-size: 100%;
+	color: #FFFFFC;
+	padding-right: 35px;
+}
+
+footer a{
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 10px;
+	font-family: Barlow;
+	font-size: 100%;
+	color: #FFFFFC;
+}
+
+footer a:hover{
+	color: #C2C9FF;
+}
+
+section.internal-nav{
+	display: inline-block;
+	float: left;
+	background-color: #1F1F1F;
+	color: #FFFFFC;
+	width: 18%;
+	padding: 15px;
+	margin-right: 20px;
+	margin-left: 5px;
+	margin-top: 97px;
+	position: fixed;}
+
+section.internal-nav h3{
+	display: inline-block;
+	width: 100%;
+	font-family: Electrolize;
+	text-transform: uppercase;
+	font-size: 130%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+section.internal-nav h3 a{
+	color: #FFFFFC;
+}
+
+section.internal-nav h3#external-link{
+	margin-top: 30px;
+}
+
+section.internal-nav h3 a:hover{
+	color:#C2C9FF;
+}
+
+section.internal-nav nav a{
+	display: inline-block;
+	width: 100%;
+	font-family: Barlow;
+	font-size: 110%;
+	color: #FFFFFC;
+	margin-bottom: 10px;
+}
+
+section.internal-nav a:hover{
+	color: #C2C9FF;
+}
+
+section.internal-head{
+	display: inline-block;
+	float: right;
+	color: #FFFFFC;
+	width: 60%;
+	margin-right: 20%;
+}
+
+section.has-internal-nav{
+	display: inline-block;
+	float: right;
+	color: #1F1F1F;
+	width: 58%;
+	margin-right: 20%;
+	margin-bottom: 25px;
+}
+
+section h4{
+	color: #1F1F1F;
+	font-family: Electrolize;
+	font-size: 155%;
+	margin-bottom: 15px;
+}
+
+section h4 a{
+	color: #1F1F1F;
+	font-family: Electrolize;
+}
+
+section h4 a:hover{
+	color: #001AE0;
+}
+
+section details{
+	font-family: Barlow;
+}
+
+section details summary{
+	text-transform: uppercase;
+	font-size: 130%;
+}
+
+section details p{
+	margin-top: 10px;
+}
+
+section details a, section p a{
+	color: #001AE0;
+}
+
+section#portfolio figure{
+	display: inline-block;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 5px;
+}
+
+section#portfolio img{
+	width: auto;
+	max-height: 200px;
+	max-width: 250px;
+}
+
+section#portfolio h5{
+	text-transform: uppercase;
+	text-align: center;
+	color: #1F1F1F;
+	font-family: Electrolize;
+	font-size: 300%;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+a.icon{
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+	margin-top: 20px;
+	color: #1F1F1F;
+}
+
+a.icon:hover{
+	color: #001AE0;
+}
+
+section.bottom{
+	margin-bottom: 100px;
+}
+
+section.top{
+	margin-top: 100px;
+}

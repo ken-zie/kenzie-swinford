@@ -1,0 +1,14 @@
+html, body, header, section, mark, h1, h2, h3, h4, h5, p, nav, a, h2, h3, footer,figure{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+
+body{
+	line-height: 1;
+}
