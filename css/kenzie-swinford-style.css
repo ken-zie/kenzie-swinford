@@ -1,5 +1,6 @@
 body{
 	background-color: #FFFFFC;
+	line-height: 1.25;
 }
 
 header{
@@ -14,7 +15,7 @@ header{
 }
 
 h1{
-	display: inline-block;
+	display: block;
 	float: left;
 	font-family: Electrolize;
 	text-transform: lowercase;
@@ -38,7 +39,7 @@ h1 a:hover{
 }
 
 header nav{
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-top: 38px;
 	margin-bottom: 38px;
@@ -47,7 +48,7 @@ header nav{
 }
 
 header nav a{
-	display: inline-block;
+	display: block;
 	float: left;
 	font-family: Barlow;
 	font-size: 110%;
@@ -81,7 +82,7 @@ h2{
 }
 
 figure{
-	display: inline-block;
+	display: block;
 	float: right;
 	width: 400px;
 }
@@ -135,7 +136,7 @@ footer a:hover{
 }
 
 section.internal-nav{
-	display: inline-block;
+	display: block;
 	float: left;
 	background-color: #1F1F1F;
 	color: #FFFFFC;
@@ -182,7 +183,7 @@ section.internal-nav a:hover{
 }
 
 section.internal-head{
-	display: inline-block;
+	display: block;
 	float: right;
 	color: #FFFFFC;
 	width: 60%;
@@ -190,7 +191,7 @@ section.internal-head{
 }
 
 section.has-internal-nav{
-	display: inline-block;
+	display: block;
 	float: right;
 	color: #1F1F1F;
 	width: 58%;
@@ -232,7 +233,7 @@ section details a, section p a{
 }
 
 section#portfolio figure{
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 250px;
 	height: 200px;
@@ -256,7 +257,7 @@ section#portfolio h5{
 }
 
 a.icon{
-	display: inline-block;
+	display: block;
 	float: right;
 	margin-left: 10px;
 	margin-top: 20px;
