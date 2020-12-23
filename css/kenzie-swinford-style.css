@@ -94,7 +94,6 @@ figure img{
 
 section p{
 	font-family: Barlow;
-	font-size: 130%;
 	color: #1F1F1F;
 }
 
@@ -202,7 +201,7 @@ section.has-internal-nav{
 section h4{
 	color: #1F1F1F;
 	font-family: Electrolize;
-	font-size: 185%;
+	font-size: 195%;
 	margin-bottom: 15px;
 }
 
@@ -213,6 +212,14 @@ section h4 a{
 
 section h4 a:hover{
 	color: #001AE0;
+}
+
+section h5 {
+	color: #1F1F1F;
+	font-family: Barlow;
+	font-size: 130%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 section details{
@@ -228,7 +235,7 @@ section details p{
 	margin-top: 10px;
 }
 
-section details a, section p a{
+section details a, section ul a, section p a{
 	color: #001AE0;
 }
 
@@ -274,4 +281,14 @@ section.bottom{
 
 section.top{
 	margin-top: 100px;
+}
+
+ul{
+	font-family: Barlow;
+	color: #1F1F1F;
+	font-size: 19px;
+}
+
+p{
+	font-size: 19px;
 }
